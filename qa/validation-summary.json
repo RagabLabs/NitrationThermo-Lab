@@ -1,0 +1,881 @@
+{
+  "application": "NitrationThermo Lab",
+  "uiVersion": "2.0.0",
+  "scientificAndExportProtocol": "original, unchanged",
+  "verifiedDate": "2026-10-17",
+  "unitTests": {
+    "totalPassed": 196,
+    "failed": 0,
+    "originalScientific": 119,
+    "fullOutputSnapshots": 44,
+    "protectedFileHashes": 13,
+    "equationPreservation": 20
+  },
+  "originalZipComparison": {
+    "byteIdenticalFiles": 14,
+    "sha256": {
+      "src/science/calculate.ts": "fa80bd815cb17f3dbac3f8a61bd6ff545ef1223dcf56800e59139da51fe92691",
+      "src/science/integrated.ts": "2487e59e4d3a141e0ff9ef06e36216e295fc04ac0c9ece41d086f29043d37aa0",
+      "src/science/mixtures.ts": "593181055b132a2883e4a054c68a0dc593c4e7bf050dde604c990b2ea7c98760",
+      "src/science/reaction.ts": "260c87030db33c06e8c4b893436a57965caba7d3bdb9d564316060113fb7b74f",
+      "src/science/thermal.ts": "12e64aa96847d6911383fd53d42ad8868f91dbe9ea306a2e05699286c3fe3c63",
+      "src/science/types.ts": "5b9ca1d0855bc0247ee34e9fa0c31637544750f143faa52caf9aa67dea67912b",
+      "src/science/units.ts": "e0a134779eb2e952cb0a35a507c55c7a80fc1752004e4e8c48b6e926b55f7d45",
+      "src/science/validation.ts": "a2f12ddd3b5835101ded8cd307e8807fa6b2660b8f2ba5eb74e621886dd0e734",
+      "src/data/calculators.ts": "8d2a3eb6d0d155ccd310bb1e9a24a89da66a08c21c6bac0e4ecd834b06bd920c",
+      "src/data/sources.ts": "ef9c898fd91b97282ffbdd0e5872d5c22332af7eb158a41680b94af2503b910a",
+      "src/export/report.ts": "84b22816ddd9c56269f6760027e7c68fab3bcfd589dcf6633867fc338cf8babe",
+      "vite.config.ts": "bcecae89221fad64515c0691cd64f981715a2d849912072a04067fca3b70307c",
+      ".github/workflows/deploy.yml": "e0793c4efc61c6bcd6dd2a72d1db7cee2c6fcf85722dda815e2c4d4048561226",
+      "tests/science.test.ts": "43f794e29d1fd579865019ba335e70e87e86594ca3b39c2cf9f4b8a920de4c7a"
+    }
+  },
+  "browser": {
+    "passed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "flaky": 0,
+    "engine": "Chromium 153.0.8010.0, headless Linux",
+    "testedWidths": [
+      360,
+      390,
+      768,
+      1024,
+      1440
+    ],
+    "languages": [
+      "English LTR",
+      "Arabic RTL"
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "zoomEquivalent": {
+      "cssWidth": 720,
+      "deviceScaleFactor": 2,
+      "captureWidth": 1440
+    },
+    "axeAudit": {
+      "tags": [
+        "wcag2a",
+        "wcag2aa",
+        "wcag21aa"
+      ],
+      "pageStates": 3,
+      "languageThemeCombinations": 4,
+      "analyzedCombinations": 12,
+      "violationsReported": 0
+    },
+    "cases": [
+      {
+        "title": "01 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "02 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "03 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "04 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "05 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "06 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "07 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "08 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "09 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "10 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "11 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "12 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "13 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "14 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "15 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "16 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "17 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "18 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "19 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "20 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "home contains all 20 calculators; search and group filter work",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "language and dark theme persist across navigation and reload",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "theme persists without test init resetting storage",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "reset empties inputs and rejects incomplete calculations",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "changing an input unit preserves the physical calculation",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "invalid integrated stoichiometry gives translated validation",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "multi-stream editor supports add, remove, and recalculation",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "exports a JSON file from the last calculated input snapshot",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "exports a CSV file from the last calculated input snapshot",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "exports a TXT file from the last calculated input snapshot",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "copy results button reports success using browser clipboard",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "NIST water mode and the user dilution table both calculate",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "static production assets are local and no request fails",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "capture homepage and full calculator for visual review",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "validation messages follow the selected language immediately",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "result units change only the displayed physical unit",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "01 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "02 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "03 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "04 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "05 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "06 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "07 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "08 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "09 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "10 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "11 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "12 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "13 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "14 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "15 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "16 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "17 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "18 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "19 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "20 opens, calculates example, draws equation/chart and keeps page within viewport",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "home contains all 20 calculators; search and group filter work",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "language and dark theme persist across navigation and reload",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "theme persists without test init resetting storage",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "reset empties inputs and rejects incomplete calculations",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "changing an input unit preserves the physical calculation",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "invalid integrated stoichiometry gives translated validation",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "multi-stream editor supports add, remove, and recalculation",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "exports a JSON file from the last calculated input snapshot",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "exports a CSV file from the last calculated input snapshot",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "exports a TXT file from the last calculated input snapshot",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "copy results button reports success using browser clipboard",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "NIST water mode and the user dilution table both calculate",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "static production assets are local and no request fails",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "capture homepage and full calculator for visual review",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "validation messages follow the selected language immediately",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "result units change only the displayed physical unit",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "responsive 360px: homepage, energy tabs and integrated workspace",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "responsive 390px: homepage, energy tabs and integrated workspace",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "responsive 768px: homepage, energy tabs and integrated workspace",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "responsive 1024px: homepage, energy tabs and integrated workspace",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "responsive 1440px: homepage, energy tabs and integrated workspace",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "thermal explorer exposes the five actual energy topics and connected calculator links",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "skip link and previous/next breadcrumbs keep the current calculator route",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "200% equivalent browser zoom retains large readable inputs, equations, results and page reflow",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "WCAG AA automated audit: light home, explorer, workspace and sources",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "WCAG AA automated audit: dark home, explorer, workspace and sources",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "dark theme and reduced motion remain usable for the thermal views",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "equation rendering shows all original expressions without KaTeX parse errors",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "captures observatory home in the selected language",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "hero navigation moves keyboard focus to the requested working section",
+        "project": "desktop-en",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "responsive 360px: homepage, energy tabs and integrated workspace",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "responsive 390px: homepage, energy tabs and integrated workspace",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "responsive 768px: homepage, energy tabs and integrated workspace",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "responsive 1024px: homepage, energy tabs and integrated workspace",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "responsive 1440px: homepage, energy tabs and integrated workspace",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "thermal explorer exposes the five actual energy topics and connected calculator links",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "skip link and previous/next breadcrumbs keep the current calculator route",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "200% equivalent browser zoom retains large readable inputs, equations, results and page reflow",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "WCAG AA automated audit: light home, explorer, workspace and sources",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "WCAG AA automated audit: dark home, explorer, workspace and sources",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "dark theme and reduced motion remain usable for the thermal views",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "equation rendering shows all original expressions without KaTeX parse errors",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "captures observatory home in the selected language",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      },
+      {
+        "title": "hero navigation moves keyboard focus to the requested working section",
+        "project": "mobile-ar",
+        "status": "expected",
+        "results": [
+          "passed"
+        ]
+      }
+    ]
+  },
+  "production": {
+    "typecheck": "passed",
+    "viteBuild": "passed",
+    "assetReferences": "passed",
+    "base": "/NitrationThermo-Lab/",
+    "deploymentConfig": "byte-identical to v1",
+    "liveDeployment": false
+  }
+}

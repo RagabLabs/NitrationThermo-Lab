@@ -1,0 +1,15 @@
+{
+  "src/science/calculate.ts": "fa80bd815cb17f3dbac3f8a61bd6ff545ef1223dcf56800e59139da51fe92691",
+  "src/science/integrated.ts": "2487e59e4d3a141e0ff9ef06e36216e295fc04ac0c9ece41d086f29043d37aa0",
+  "src/science/mixtures.ts": "593181055b132a2883e4a054c68a0dc593c4e7bf050dde604c990b2ea7c98760",
+  "src/science/reaction.ts": "260c87030db33c06e8c4b893436a57965caba7d3bdb9d564316060113fb7b74f",
+  "src/science/thermal.ts": "12e64aa96847d6911383fd53d42ad8868f91dbe9ea306a2e05699286c3fe3c63",
+  "src/science/types.ts": "5b9ca1d0855bc0247ee34e9fa0c31637544750f143faa52caf9aa67dea67912b",
+  "src/science/units.ts": "e0a134779eb2e952cb0a35a507c55c7a80fc1752004e4e8c48b6e926b55f7d45",
+  "src/science/validation.ts": "a2f12ddd3b5835101ded8cd307e8807fa6b2660b8f2ba5eb74e621886dd0e734",
+  "src/data/calculators.ts": "8d2a3eb6d0d155ccd310bb1e9a24a89da66a08c21c6bac0e4ecd834b06bd920c",
+  "src/data/sources.ts": "ef9c898fd91b97282ffbdd0e5872d5c22332af7eb158a41680b94af2503b910a",
+  "src/export/report.ts": "84b22816ddd9c56269f6760027e7c68fab3bcfd589dcf6633867fc338cf8babe",
+  "vite.config.ts": "bcecae89221fad64515c0691cd64f981715a2d849912072a04067fca3b70307c",
+  ".github/workflows/deploy.yml": "e0793c4efc61c6bcd6dd2a72d1db7cee2c6fcf85722dda815e2c4d4048561226"
+}
